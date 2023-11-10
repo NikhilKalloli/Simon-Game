@@ -42,3 +42,17 @@ Contributions are welcome! If you have any improvements or new features to sugge
 ---
 
 Enjoy playing Simon Says! If you have any questions or issues, feel free to [open an issue](https://github.com/NikhilKalloli/Simon-Game/issues).
+
+## 🔗 Connect with Me
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NikhilKalloli)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-kalloli-a6ab2a25b/)
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at nikhilkalloli0097@gmail.com
+
+
