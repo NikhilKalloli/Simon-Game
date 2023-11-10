@@ -56,13 +56,17 @@ function checkAns(idx){
     }
     else
     { 
-
+        if(level-1<0){
+        h2.innerHTML=`Game Over! Your Score was <b>${level}</b> <br> Press any key to start. `;
+        }
+        else{
         h2.innerHTML=`Game Over! Your Score was <b>${level-1}</b> <br> Press any key to start. `;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
         document.querySelector("body").style.backgroundColor="white";
-
+        document.querySelector("body").style.backgroundColor="#011F3F";
         },150)
+    }
         reset();
 
     }

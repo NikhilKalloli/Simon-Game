@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: #011F3F;
 }
 
 .btn{
@@ -9,6 +10,11 @@ body{
     border: 10px solid black;
     margin: 2rem;
 }
+.gameStart{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  font-size: 2rem;
+}
 
 .btn-container{
     display: flex;
@@ -17,19 +23,19 @@ body{
 }
 
 .red{
-    background-color: #d95980;
+    background-color:red;
 }
 
 .yellow{
-    background-color: #f99b45;
+    background-color:yellow;
 }
 
 .green{
-    background-color: #63aac0;
+    background-color: green;
 }
 
 .purple{
-    background-color: #819ff9;
+    background-color: blue;
 }
 
 .flash{
@@ -37,5 +43,5 @@ body{
 }
 
 .userflash{
-    background-color: green;
+    background-color: gray
 }
