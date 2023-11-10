@@ -20,7 +20,7 @@ The Simon Says Game is a classic memory and pattern recognition game. The game p
 ## How to Play
 
 1. Open the `index.html` file in your web browser.
-2. Press the "Start" button to begin the game.
+2. Press any key to begin the game.
 3. Watch the sequence of colors displayed by Simon.
 4. Click on the colors in the same order to replicate the sequence.
 5. If you make a mistake, the game will notify you, and you can try again.
