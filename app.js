@@ -24,6 +24,11 @@ function gameFlash(btn){
     },250)
 }
 
+function playSound(){
+    let audio = new Audio('./sounds/green.mp3');
+    audio.play();
+}
+
 
 function userFlash(btn){
     btn.classList.add("userflash")
@@ -43,7 +48,13 @@ function levelUp(){
     gameSeq.push(randColor);
     console.log(gameSeq);
     gameFlash(randBtn);
+    playSound();
  
+}
+
+function wrongAudio(){
+    let audio = new Audio('./sounds/wrong.mp3');
+    audio.play();
 }
 
 function checkAns(idx){
@@ -58,9 +69,11 @@ function checkAns(idx){
     { 
         if(level-1<0){
         h2.innerHTML=`Game Over! Your Score was <b>${level}</b> <br> Press any key to start. `;
+        wrongAudio();
         }
         else{
         h2.innerHTML=`Game Over! Your Score was <b>${level-1}</b> <br> Press any key to start. `;
+        wrongAudio();
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
         document.querySelector("body").style.backgroundColor="white";
