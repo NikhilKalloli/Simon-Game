@@ -31,7 +31,7 @@ The Simon Says Game is a classic memory and pattern recognition game. The game p
 
 - `index.html`: The main HTML file that structures the game interface.
 - `style.css`: The CSS file for styling the game.
-- `script.js`: The JavaScript file containing the game logic.
+- `app.js`: The JavaScript file containing the game logic.
 
 
 ## Contributing
